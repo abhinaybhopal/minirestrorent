@@ -15,7 +15,7 @@ if "yes"==order.strip():
     print("chai:10 \nkadak chai:20 \ncofee:15 \npizza:50 \nbarger:70 \nsigret:12 \nfizza:10 \ndrink:50")
     while "yes"==str(input("conform (yes/no):")):
         flag=1
-        order=list(map(str,input("do you what order:").split()))
+        order=list(map(str,input("what do you order:").split()))
         for i in order:
             totle_amount +=menu[i]
         print("Thanku sir/madem again what do you want order",end="")
